@@ -1,0 +1,137 @@
+---
+title: "Movie Ratings"
+author: "Abhinav Kumar"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+getwd()
+setwd("/Users/abhinav/Downloads/essentials/projects/R prog/Movie Ratings and Revenue")
+getwd()
+```
+
+```{r}
+ratings1 <- read.csv("S6-Movie-Ratings.csv")
+```
+
+```{r}
+str(ratings1)
+ratings1$Genre <- factor(ratings1$Genre)
+ratings1$Year.of.release <- factor(ratings1$Year.of.release)
+ratings1$Film <- factor(ratings1$Film)
+str(ratings1)
+```
+
+```{r}
+head(ratings1)
+colnames(ratings1) <- c("Movie", "Genre", "CriticRating", "AudienceRating", "BudgetMill", "Year")
+head(ratings1)
+```
+
+```{r}
+summary(ratings1)
+```
+
+```{r}
+library(ggplot2)
+```
+
+```{r , warning=FALSE}
+ggplot(data = ratings1, aes(x = CriticRating, y = AudienceRating, 
+                            colour = Genre, alpha = 0.8)) +
+  geom_point()
+```
+
+```{r}
+(p <- ggplot(data = ratings1, aes(x = CriticRating, y = AudienceRating, 
+                            colour = Genre, size = BudgetMill))) +
+  geom_point()
+```
+
+```{r}
+p + geom_point(aes(colour = BudgetMill))
+```
+
+```{r}
+q <- ggplot(data = ratings1, aes(x = BudgetMill))
+q + geom_histogram(binwidth = 10, aes(fill = Genre), colour = "black")
+```
+
+```{r}
+q + geom_histogram(binwidth = 10, aes(fill = Genre), colour = "black") + coord_cartesian(ylim = c(0, 100), xlim = c(0, 30))
+```
+
+```{r}
+q + geom_density(aes(fill = Genre), colour = "black", position = "stack", alpha = 0.6)
+```
+
+```{r}
+r <- ggplot(data = ratings1)
+r + geom_histogram(binwidth = 15, aes(x = CriticRating), fill = "white", colour = "blue")
+```
+
+```{r}
+s <- ggplot(data = ratings1, aes(x = Genre, y = CriticRating, colour = Genre))
+s + geom_boxplot(size = 1.5)+ geom_jitter(alpha = 0.5)
+```
+
+```{r}
+t <- ggplot(data = ratings1, aes(x = BudgetMill))
+t + geom_histogram(binwidth = 10, aes(fill = Genre), colour = "black") + facet_grid(Genre~., scales = "free")
+```
+
+```{r , warning=FALSE}
+u <- ggplot(data = ratings1, aes(x = CriticRating, y = AudienceRating, colour = Genre))
+u + geom_smooth(size = 0.3) + geom_point(size = 0.5) + facet_grid(Genre~Year)
+```
+
+```{r}
+ratings2 <- read.csv("S6-Homework-Data.csv")
+```
+
+```{r}
+head(ratings2)
+colnames(ratings2) <- c("Day", "Director", "Genre", "Movie", "LaunchDate", "Studio", "AdjGrossMill", "BudgetMill", "GrossMill", "IMDBRating", "LensRating", "OverMill", "Over%", "ProfMill", "OverProf", "Runtime", "USMill", "USGross")
+```
+
+```{r}
+str(ratings2)
+```
+
+```{r , warning=FALSE}
+ratings2$Day <- factor(ratings2$Day)
+ratings2$Genre <- factor(ratings2$Genre)
+ratings2$Director <- factor(ratings2$Director)
+ratings2$Studio <- factor(ratings2$Studio)
+ratings2$AdjGrossMill <- as.numeric(ratings2$AdjGrossMill)
+ratings2$GrossMill <- as.numeric(ratings2$GrossMill)
+ratings2$OverMill <- as.numeric(ratings2$OverMill)
+ratings2$ProfMill <- as.numeric(ratings2$ProfMill)
+ratings2$Runtime <- as.numeric(ratings2$Runtime)
+str(ratings2)
+```
+
+```{r}
+filt1 <- ratings2$Genre %in% c("action", "adventure", "animation", "comedy", "drama")
+filt2 <- ratings2$Studio %in% c("WB", "Fox", "Paramount Pictures", "Sony", "Universal", "DreamWorks")
+
+ratings3 <- ratings2[(filt1 & filt2),]
+```
+
+```{r}
+a <- ggplot(data = ratings2, aes(x = Day))
+a + geom_bar(aes(fill = Day), colour = "black")
+```
+
+```{r}
+b <- ggplot(data = ratings3, aes(x = Genre, y = USGross))
+b + geom_jitter(aes(size =BudgetMill, colour = Studio)) + geom_boxplot(size = 0.3, alpha = 0.7, outliers = F)
+```

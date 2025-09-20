@@ -1,0 +1,188 @@
+"","Country.Code","Country.Name","Region","Year","Fertility.Rate","LifeExpectancy2013"
+"1","ABW","Aruba","The Americas",2013,1.669,75.3286585365854
+"2","AFG","Afghanistan","Asia",2013,5.05,60.0282682926829
+"3","AGO","Angola","Africa",2013,6.165,51.8661707317073
+"4","ALB","Albania","Europe",2013,1.771,77.537243902439
+"5","ARE","United Arab Emirates","Middle East",2013,1.801,77.1956341463415
+"6","ARG","Argentina","The Americas",2013,2.335,75.9860975609756
+"7","ARM","Armenia","Asia",2013,1.553,74.5613658536585
+"8","ATG","Antigua and Barbuda","The Americas",2013,2.088,75.7786585365854
+"9","AUS","Australia","Oceania",2013,1.921,82.1975609756098
+"10","AUT","Austria","Europe",2013,1.44,80.890243902439
+"11","AZE","Azerbaijan","Asia",2013,2,70.6931463414634
+"12","BDI","Burundi","Africa",2013,6.035,56.2516097560976
+"13","BEL","Belgium","Europe",2013,1.79,80.3853658536585
+"14","BEN","Benin","Africa",2013,4.846,59.3120243902439
+"15","BFA","Burkina Faso","Africa",2013,5.607,58.2406341463415
+"16","BGD","Bangladesh","Asia",2013,2.209,71.245243902439
+"17","BGR","Bulgaria","Europe",2013,1.5,74.4658536585366
+"18","BHR","Bahrain","Middle East",2013,2.075,76.5459512195122
+"19","BHS","Bahamas, The","The Americas",2013,1.883,75.0735365853659
+"20","BIH","Bosnia and Herzegovina","Europe",2013,1.272,76.2769268292683
+"21","BLR","Belarus","Europe",2013,1.62,72.4707317073171
+"22","BLZ","Belize","The Americas",2013,2.611,69.9820487804878
+"23","BOL","Bolivia","The Americas",2013,3.017,67.9134390243903
+"24","BRA","Brazil","The Americas",2013,1.801,74.1224390243903
+"25","BRB","Barbados","The Americas",2013,1.791,75.3339512195122
+"26","BRN","Brunei Darussalam","Asia",2013,1.893,78.5466585365854
+"27","BTN","Bhutan","Asia",2013,2.082,69.1029268292683
+"28","BWA","Botswana","Africa",2013,2.864,64.3608048780488
+"29","CAF","Central African Republic","Africa",2013,4.368,49.8798780487805
+"30","CAN","Canada","The Americas",2013,1.61,81.4011219512195
+"31","CHE","Switzerland","Europe",2013,1.52,82.7487804878049
+"32","CHL","Chile","The Americas",2013,1.774,81.1979268292683
+"33","CHN","China","Asia",2013,1.668,75.3530243902439
+"34","CIV","Cote d'Ivoire","Africa",2013,5.063,51.2084634146342
+"35","CMR","Cameroon","Africa",2013,4.781,55.0418048780488
+"36","COD","Congo, Dem. Rep.","Africa",2013,6.103,58.2719268292683
+"37","COG","Congo, Rep.","Africa",2013,4.919,61.6663902439024
+"38","COL","Colombia","The Americas",2013,1.922,73.8097317073171
+"39","COM","Comoros","Africa",2013,4.56,62.9321707317073
+"40","CPV","Cabo Verde","Africa",2013,2.339,72.9723658536585
+"41","CRI","Costa Rica","The Americas",2013,1.841,79.2252195121951
+"42","CUB","Cuba","The Americas",2013,1.622,79.2563902439025
+"43","CYP","Cyprus","Europe",2013,1.455,79.9497804878049
+"44","CZE","Czech Republic","Europe",2013,1.45,78.2780487804878
+"45","DEU","Germany","Europe",2013,1.38,81.0439024390244
+"46","DJI","Djibouti","Africa",2013,3.262,61.6864634146342
+"47","DNK","Denmark","Europe",2013,1.73,80.3024390243903
+"48","DOM","Dominican Republic","The Americas",2013,2.51,73.3199024390244
+"49","DZA","Algeria","Africa",2013,2.893,74.5689512195122
+"50","ECU","Ecuador","The Americas",2013,2.571,75.648512195122
+"51","EGY","Egypt, Arab Rep.","Africa",2013,3.336,70.9257804878049
+"52","ERI","Eritrea","Africa",2013,4.363,63.1778780487805
+"53","ESP","Spain","Europe",2013,1.32,82.4268292682927
+"54","EST","Estonia","Europe",2013,1.56,76.4243902439025
+"55","ETH","Ethiopia","Africa",2013,4.517,63.4421951219512
+"56","FIN","Finland","Europe",2013,1.8,80.8317073170732
+"57","FJI","Fiji","Oceania",2013,2.589,69.9179268292683
+"58","FRA","France","Europe",2013,2.01,81.9682926829268
+"59","FSM","Micronesia, Fed. Sts.","Oceania",2013,3.294,68.9733902439024
+"60","GAB","Gabon","Africa",2013,3.963,63.8435853658537
+"61","GBR","United Kingdom","Europe",2013,1.92,80.9560975609756
+"62","GEO","Georgia","Asia",2013,1.817,74.079512195122
+"63","GHA","Ghana","Africa",2013,4.209,61.1420731707317
+"64","GIN","Guinea","Africa",2013,5.094,58.216487804878
+"65","GMB","Gambia, The","Africa",2013,5.751,59.9992682926829
+"66","GNB","Guinea-Bissau","Africa",2013,4.906,54.8384146341464
+"67","GNQ","Equatorial Guinea","Africa",2013,4.924,57.2908292682927
+"68","GRC","Greece","Europe",2013,1.29,80.6341463414634
+"69","GRD","Grenada","The Americas",2013,2.171,73.1935609756098
+"70","GTM","Guatemala","The Americas",2013,3.263,71.4863902439024
+"71","GUM","Guam","Oceania",2013,2.406,78.872512195122
+"72","GUY","Guyana","The Americas",2013,2.585,66.3100243902439
+"73","HKG","Hong Kong SAR, China","Asia",2013,1.124,83.8317073170732
+"74","HND","Honduras","The Americas",2013,2.442,72.9428536585366
+"75","HRV","Croatia","Europe",2013,1.51,77.1268292682927
+"76","HTI","Haiti","The Americas",2013,3.098,62.4011463414634
+"77","HUN","Hungary","Europe",2013,1.34,75.2682926829268
+"78","IDN","Indonesia","Asia",2013,2.484,68.7046097560976
+"79","IND","India","Asia",2013,2.465,67.6604146341463
+"80","IRL","Ireland","Europe",2013,2.01,81.0439024390244
+"81","IRN","Iran, Islamic Rep.","Middle East",2013,1.726,75.1259756097561
+"82","IRQ","Iraq","Middle East",2013,4.026,69.4716829268293
+"83","ISL","Iceland","Europe",2013,2.04,83.1170731707317
+"84","ITA","Italy","Europe",2013,1.43,82.290243902439
+"85","JAM","Jamaica","The Americas",2013,2.26,73.4689268292683
+"86","JOR","Jordan","Middle East",2013,3.244,73.9014146341463
+"87","JPN","Japan","Asia",2013,1.43,83.3319512195122
+"88","KAZ","Kazakhstan","Asia",2013,2.64,70.45
+"89","KEN","Kenya","Africa",2013,4.406,60.9537804878049
+"90","KGZ","Kyrgyz Republic","Asia",2013,3.2,70.2024390243902
+"91","KHM","Cambodia","Asia",2013,2.683,67.7720487804878
+"92","KIR","Kiribati","Oceania",2013,3.765,65.7665853658537
+"93","KOR","Korea, Rep.","Asia",2013,1.187,81.459756097561
+"94","KWT","Kuwait","Middle East",2013,2.6,74.462756097561
+"95","LAO","Lao PDR","Asia",2013,3.063,65.687243902439
+"96","LBN","Lebanon","Middle East",2013,1.495,80.1288780487805
+"97","LBR","Liberia","Africa",2013,4.793,60.5203902439024
+"98","LBY","Libya","Africa",2013,2.507,71.6576829268293
+"99","LCA","St. Lucia","The Americas",2013,1.913,74.9127073170732
+"100","LKA","Sri Lanka","Asia",2013,2.339,74.2402926829268
+"101","LSO","Lesotho","Africa",2013,3.222,49.3314634146342
+"102","LTU","Lithuania","Europe",2013,1.6,74.1634146341464
+"103","LUX","Luxembourg","Europe",2013,1.57,81.7975609756098
+"104","LVA","Latvia","Europe",2013,1.44,73.9804878048781
+"105","MAC","Macao SAR, China","Asia",2013,1.204,80.3391463414634
+"106","MAR","Morocco","Africa",2013,2.535,73.7090487804878
+"107","MDA","Moldova","Europe",2013,1.456,68.811512195122
+"108","MDG","Madagascar","Africa",2013,4.468,64.6739024390244
+"109","MDV","Maldives","Asia",2013,2.152,76.6026097560976
+"110","MEX","Mexico","The Americas",2013,2.272,76.5326585365854
+"111","MKD","Macedonia, FYR","Europe",2013,1.511,75.1870487804878
+"112","MLI","Mali","Africa",2013,6.314,57.5351951219512
+"113","MLT","Malta","Europe",2013,1.43,80.7463414634146
+"114","MMR","Myanmar","Asia",2013,2.239,65.6540975609756
+"115","MNE","Montenegro","Europe",2013,1.666,74.7583658536585
+"116","MNG","Mongolia","Asia",2013,2.657,69.0618048780488
+"117","MOZ","Mozambique","Africa",2013,5.418,54.641512195122
+"118","MRT","Mauritania","Africa",2013,4.662,62.8027073170732
+"119","MUS","Mauritius","Africa",2013,1.44,74.46
+"120","MWI","Malawi","Africa",2013,5.22,61.466
+"121","MYS","Malaysia","Asia",2013,1.956,74.567512195122
+"122","NAM","Namibia","Africa",2013,3.56,64.3438780487805
+"123","NCL","New Caledonia","Oceania",2013,2.28,77.1219512195122
+"124","NER","Niger","Africa",2013,7.623,60.8281463414634
+"125","NGA","Nigeria","Africa",2013,5.707,52.4421463414634
+"126","NIC","Nicaragua","The Americas",2013,2.3,74.514756097561
+"127","NLD","Netherlands","Europe",2013,1.72,81.1048780487805
+"128","NOR","Norway","Europe",2013,1.85,81.4512195121951
+"129","NPL","Nepal","Asia",2013,2.292,69.222
+"130","NZL","New Zealand","Oceania",2013,1.95,81.4073170731707
+"131","OMN","Oman","Middle East",2013,2.823,76.8410487804878
+"132","PAK","Pakistan","Asia",2013,3.682,65.9636829268293
+"133","PAN","Panama","The Americas",2013,2.465,77.4192195121951
+"134","PER","Peru","The Americas",2013,2.48,74.2838536585366
+"135","PHL","Philippines","Asia",2013,3.011,68.1315609756097
+"136","PNG","Papua New Guinea","Oceania",2013,3.812,62.4491707317073
+"137","POL","Poland","Europe",2013,1.3,76.8487804878049
+"138","PRI","Puerto Rico","The Americas",2013,1.636,78.7111951219512
+"139","PRT","Portugal","Europe",2013,1.28,80.3731707317073
+"140","PRY","Paraguay","The Americas",2013,2.581,72.7991707317073
+"141","PYF","French Polynesia","Oceania",2013,2.059,76.3340731707317
+"142","QAT","Qatar","Middle East",2013,2.043,78.4184878048781
+"143","ROU","Romania","Europe",2013,1.53,74.4634146341463
+"144","RUS","Russian Federation","Europe",2013,1.7,71.0731707317073
+"145","RWA","Rwanda","Africa",2013,4.012,63.3948292682927
+"146","SAU","Saudi Arabia","Middle East",2013,2.818,74.1776341463415
+"147","SDN","Sudan","Africa",2013,4.421,63.1670487804878
+"148","SEN","Senegal","Africa",2013,5.134,65.878756097561
+"149","SGP","Singapore","Asia",2013,1.19,82.3463414634146
+"150","SLB","Solomon Islands","Oceania",2013,4.031,67.7189268292683
+"151","SLE","Sierra Leone","Africa",2013,4.746,50.3631219512195
+"152","SLV","El Salvador","The Americas",2013,1.958,72.4981463414634
+"153","SOM","Somalia","Africa",2013,6.565,55.0230243902439
+"154","SSD","South Sudan","Africa",2013,5.108,55.2209024390244
+"155","STP","Sao Tome and Principe","Africa",2013,4.634,66.259512195122
+"156","SUR","Suriname","The Americas",2013,2.386,70.99
+"157","SVK","Slovak Republic","Europe",2013,1.34,76.2609756097561
+"158","SVN","Slovenia","Europe",2013,1.58,80.2780487804878
+"159","SWE","Sweden","Europe",2013,1.91,81.7048780487805
+"160","SWZ","Swaziland","Africa",2013,3.334,48.9379268292683
+"161","SYR","Syrian Arab Republic","Middle East",2013,2.964,74.7157804878049
+"162","TCD","Chad","Africa",2013,6.264,51.1914878048781
+"163","TGO","Togo","Africa",2013,4.655,59.1323658536585
+"164","THA","Thailand","Asia",2013,1.524,74.2469268292683
+"165","TJK","Tajikistan","Asia",2013,3.514,69.4001707317073
+"166","TKM","Turkmenistan","Asia",2013,2.326,65.4565609756098
+"167","TLS","Timor-Leste","Asia",2013,5.2,67.5223658536585
+"168","TON","Tonga","Oceania",2013,3.768,72.6403414634147
+"169","TTO","Trinidad and Tobago","The Americas",2013,1.789,70.3052926829268
+"170","TUN","Tunisia","Africa",2013,2.25,73.6463414634147
+"171","TUR","Turkey","Europe",2013,2.041,75.1759512195122
+"172","TZA","Tanzania","Africa",2013,5.215,64.2918292682927
+"173","UGA","Uganda","Africa",2013,5.869,57.7676829268293
+"174","UKR","Ukraine","Europe",2013,1.506,71.159512195122
+"175","URY","Uruguay","The Americas",2013,2.033,76.8361951219512
+"176","USA","United States","The Americas",2013,1.8695,78.8414634146341
+"177","UZB","Uzbekistan","Asia",2013,2.2,68.2275853658537
+"178","VCT","St. Vincent and the Grenadines","The Americas",2013,1.997,72.8108780487805
+"179","VEN","Venezuela, RB","The Americas",2013,2.391,74.0744146341464
+"180","VIR","Virgin Islands (U.S.)","The Americas",2013,1.77,79.6243902439024
+"181","VNM","Vietnam","Asia",2013,1.743,75.756487804878
+"182","VUT","Vanuatu","Oceania",2013,3.383,71.669243902439
+"183","WSM","Samoa","Oceania",2013,4.147,73.2503902439024
+"184","YEM","Yemen, Rep.","Middle East",2013,4.284,63.583512195122
+"185","ZAF","South Africa","Africa",2013,2.387,56.7365853658537
+"186","ZMB","Zambia","Africa",2013,5.429,59.2373658536585
+"187","ZWE","Zimbabwe","Africa",2013,3.977,55.633
